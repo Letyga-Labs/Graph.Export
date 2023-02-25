@@ -1,22 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-  </PropertyGroup>
-  <PropertyGroup>
-    <Title>LetygaLabs.Graph.Export</Title>
-    <Description>LetygaLabs.Graph.Export does the thing!</Description>
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
 
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)'=='Release'">
-    <Optimize>true</Optimize>
-    <Tailcalls>true</Tailcalls>
-    
-  </PropertyGroup>
-  <ItemGroup>
-    <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="Library.fs" />
-  </ItemGroup>
-  <Import Project="..\..\.paket\Paket.Restore.targets" />
+    <PropertyGroup>
+        <Title>LetygaLabs.Graph.Export</Title>
+        <Description>Export any graph-like structure with some optional visual attributes to various formats (.dot, .drawio, .graphml, .plantuml, .mermaid, etc) or open it in popular online diagram editors</Description>
+        <PackageTags>f#, fsharp</PackageTags>
+        <PackageProjectUrl>https://github.com/Letyga-Labs/LetygaLabs.Graph.Export</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/Letyga-Labs/LetygaLabs.Graph.Export/blob/master/LICENSE.md</PackageLicenseUrl>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <RepositoryType>git</RepositoryType>
+        <Authors>Letyga-Labs</Authors>
+        <RepositoryUrl>https://github.com/Letyga-Labs/LetygaLabs.Graph.Export</RepositoryUrl>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)'=='Release'">
+        <Optimize>true</Optimize>
+        <Tailcalls>true</Tailcalls>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="AssemblyInfo.fs" />
+    </ItemGroup>
 </Project>
  

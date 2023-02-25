@@ -1,13 +1,30 @@
 <Project>
     <PropertyGroup>
-        <!-- summary is not migrated from project.json, but you can use the <Description> property for that if needed. -->
-        <PackageTags>f#, fsharp</PackageTags>
-        <PackageProjectUrl>https://github.com/bash-spbu/LetygaLabs.Graph.Export</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/bash-spbu/LetygaLabs.Graph.Export/blob/master/LICENSE.md</PackageLicenseUrl>
-        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-        <RepositoryType>git</RepositoryType>
-        <Authors>bash-spbu</Authors>
-        <RepositoryUrl>https://github.com/bash-spbu/LetygaLabs.Graph.Export</RepositoryUrl>
-        <!-- owners is not supported in MSBuild -->
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <AnalysisLevel>latest</AnalysisLevel>
+        <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+        <EnableNETAnalyzers>true</EnableNETAnalyzers>
+        <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <WarningsNotAsErrors>CS0618</WarningsNotAsErrors>
+        <NoWarn>CA1014</NoWarn>
+        <WarningLevel>5</WarningLevel>
     </PropertyGroup>
+
+    <PropertyGroup>
+        <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>Embedded</DebugType>
+        <EmbedAllSources>true</EmbedAllSources>
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    </PropertyGroup>
+
 </Project>

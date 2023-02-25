@@ -3,14 +3,14 @@ namespace System
 
 open System.Reflection
 
-[<assembly: AssemblyTitleAttribute("LetygaLabs.Graph.Export")>]
-[<assembly: AssemblyProductAttribute("LetygaLabs.Graph.Export")>]
-[<assembly: AssemblyVersionAttribute("0.1.0")>]
-[<assembly: AssemblyMetadataAttribute("ReleaseDate", "2017-03-17T00:00:00.0000000")>]
-[<assembly: AssemblyFileVersionAttribute("0.1.0")>]
-[<assembly: AssemblyInformationalVersionAttribute("0.1.0")>]
-[<assembly: AssemblyMetadataAttribute("ReleaseChannel", "release")>]
-[<assembly: AssemblyMetadataAttribute("GitHash", "bb8964b54bee133e9af64d316dc2cfee16df7f72")>]
+[<assembly: AssemblyTitle("LetygaLabs.Graph.Export")>]
+[<assembly: AssemblyProduct("LetygaLabs.Graph.Export")>]
+[<assembly: AssemblyVersion("0.1.0")>]
+[<assembly: AssemblyMetadata("ReleaseDate", "2017-03-17T00:00:00.0000000")>]
+[<assembly: AssemblyFileVersion("0.1.0")>]
+[<assembly: AssemblyInformationalVersion("0.1.0")>]
+[<assembly: AssemblyMetadata("ReleaseChannel", "release")>]
+[<assembly: AssemblyMetadata("GitHash", "bb8964b54bee133e9af64d316dc2cfee16df7f72")>]
 do ()
 
 module internal AssemblyVersionInformation =

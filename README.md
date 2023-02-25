@@ -8,8 +8,8 @@
 
 GitHub Actions |
 :---: |
-[![GitHub Actions](https://github.com/bash-spbu/LetygaLabs.Graph.Export/workflows/Build%20master/badge.svg)](https://github.com/bash-spbu/LetygaLabs.Graph.Export/actions?query=branch%3Amaster) |
-[![Build History](https://buildstats.info/github/chart/bash-spbu/LetygaLabs.Graph.Export)](https://github.com/bash-spbu/LetygaLabs.Graph.Export/actions?query=branch%3Amaster) |
+[![GitHub Actions](https://github.com/Letyga-Labs/LetygaLabs.Graph.Export/workflows/Build%20master/badge.svg)](https://github.com/Letyga-Labs/LetygaLabs.Graph.Export/actions?query=branch%3Amaster) |
+[![Build History](https://buildstats.info/github/chart/Letyga-Labs/LetygaLabs.Graph.Export)](https://github.com/Letyga-Labs/LetygaLabs.Graph.Export/actions?query=branch%3Amaster) |
 
 ## NuGet 
 
