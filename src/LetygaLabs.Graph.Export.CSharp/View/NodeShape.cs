@@ -11,5 +11,5 @@ public enum NodeShape
     MqQueue,
     Service,
     DataBase,
-    Group
+    Group,
 }

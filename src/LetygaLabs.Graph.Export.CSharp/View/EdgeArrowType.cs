@@ -23,5 +23,5 @@ public enum EdgeArrowType
     CrowsFootManyOptional,
     CrowsFootOne,
     CrowsFootMany,
-    CrowsFootOptional
+    CrowsFootOptional,
 }

@@ -7,5 +7,5 @@ public enum EdgePaintingMode
     Spline,
     QuadCurve,
     StraightPolyline,
-    SmoothedPolyline
+    SmoothedPolyline,
 }

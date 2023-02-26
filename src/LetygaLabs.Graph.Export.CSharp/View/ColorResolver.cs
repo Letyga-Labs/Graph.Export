@@ -17,7 +17,7 @@ public class ColorResolver : IColorResolver
         return colorKey switch
         {
             ColorKeyByColor byColor => byColor.Color,
-            _ => _registry.GetValueOrDefault(colorKey)
+            _                       => _registry.GetValueOrDefault(colorKey),
         };
     }
 }
